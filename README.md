@@ -24,5 +24,6 @@ I optimized how Wazuh displays data to improve analyst response time.
 - **Successful Detection**: ICMP Pings and Nmap Stealth Scans are now identified by their specific names in the dashboard.
 - **Improved Visibility**: High-noise aggressive scans (-A) are filtered through thresholds to prevent dashboard fatigue.
 
-![Nmap Stealth Scan Alert](Nmap_Syn_scan.png)
-![ICMP Ping Alert](ping_alert.png)
+![Nmap Stealth Scan Alert](Nmap%20Syn%20scan.png)
+![ICMP Ping Alert](ping%20alert.png)
+![Aggressive Scan Noise](Aggressive%20alert.png)
