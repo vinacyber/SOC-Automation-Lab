@@ -53,16 +53,12 @@ I optimized how Wazuh displays data to improve analyst response time.
 
 ### 1. Attack Simulation
 Captured the initial reconnaissance phase from the Attacker's perspective.
+
 ![Kali Attacker Terminal](Kali%20(attacker).png)
 
 ### 2. Detection & SIEM Visibility
 Successfully identified and categorized the traffic within the Wazuh dashboard.
+
 ![Nmap Stealth Scan Alert](Nmap%20Syn%20scan.png)
 ![ICMP Ping Alert](ping%20alert.png)
 
-## 🧠 Skills Developed
-- **Network Traffic Analysis**: Interpreting TCP/IP headers and protocol behavior.
-- **Rule Development**: Writing and tuning IDS signatures in Suricata.
-- **SIEM Configuration**: Engineering custom decoders and rules for Wazuh.
-- **Vulnerability Assessment**: Utilizing Nmap for reconnaissance and service identification.
-- **Troubleshooting**: Diagnosing service errors and log-flow discrepancies in a Linux environment.
