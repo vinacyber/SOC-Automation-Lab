@@ -8,7 +8,7 @@ In this project, I built a Security Operations Center (SOC) home lab to learn ho
 - **Target/IDS**: Ubuntu Server (Running Suricata to sniff traffic)
 - **SIEM**: Wazuh (Collecting and visualizing alerts)
 
-
+![Network Topology](topology.png)
 
 ## Key Achievements & Troubleshooting
 
