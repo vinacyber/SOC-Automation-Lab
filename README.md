@@ -8,32 +8,7 @@ In this project, I built a Security Operations Center (SOC) home lab to learn ho
 - **Target/IDS**: Ubuntu Server (Running Suricata to sniff traffic)
 - **SIEM**: Wazuh (Collecting and visualizing alerts)
 
-graph LR
-    subgraph Attacker_Zone [Attacker]
-    A[Kali Linux<br/>192.168.244.129]
-    end
 
-    subgraph Target_Zone [Victim Network]
-    W[Windows 10<br/>192.168.244.131]
-    U[Ubuntu Server<br/>192.168.244.134]
-    end
-
-    subgraph Monitoring_Zone [SOC Management]
-    S{Suricata NIDS}
-    Z[Wazuh SIEM]
-    end
-
-    A -- "Nmap / Ping Attack" --> W
-    W -- "Traffic Captured" --> U
-    U -- "Rules Processing" --> S
-    S -- "JSON Alert Generated" --> Z
-    Z -- "Visualizes" --> D[Analyst Dashboard]
-
-    style A fill:#ff9999,stroke:#333,stroke-width:2px
-    style W fill:#fff,stroke:#333
-    style U fill:#fff,stroke:#333
-    style S fill:#ffff99,stroke:#333
-    style Z fill:#99ccff,stroke:#333,stroke-width:2px
 
 ## Key Achievements & Troubleshooting
 
