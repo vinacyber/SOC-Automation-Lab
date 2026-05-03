@@ -7,6 +7,7 @@ In this project, I built a Security Operations Center (SOC) home lab to learn ho
 - **Attacker**: Kali Linux (Generating Nmap scans and Pings)
 - **Target/IDS**: Ubuntu Server (Running Suricata to sniff traffic)
 - **SIEM**: Wazuh (Collecting and visualizing alerts)
+  
 ![Kali Attacker Terminal](Kali%20(attacker).png)
 
 ## Key Achievements & Troubleshooting
